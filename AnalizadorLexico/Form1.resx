@@ -1,0 +1,655 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;tabPage2.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;CargarX.Name" xml:space="preserve">
+    <value>CargarX</value>
+  </data>
+  <data name="&gt;&gt;GuardarX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Name" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;Tabla.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Entrada.Text" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Tabla.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Compilar.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Tabla.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>799, 340</value>
+  </data>
+  <data name="Tabla.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="CargarX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 22</value>
+  </data>
+  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Consola.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Cargar.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;RowNumbers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Entrada.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lexema.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Entrada.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;RowNumbers.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Compilar.Name" xml:space="preserve">
+    <value>Compilar</value>
+  </data>
+  <data name="&gt;&gt;Cargar.Name" xml:space="preserve">
+    <value>Cargar</value>
+  </data>
+  <data name="Herramientas.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Cargar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MainPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;Nuevo.Name" xml:space="preserve">
+    <value>Nuevo</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 31</value>
+  </data>
+  <data name="Nuevo.ToolTipText" xml:space="preserve">
+    <value>Nuevo</value>
+  </data>
+  <data name="GuardarComo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAJFJREFUOE9j+Pbt239KMNgAJycnsjCKAR/efyQJk2zA81sn/5/oNgXTID7JBpzo
+        Nvl/qFYKbAiIT6YLTAi7YNLZV/8XXHoN5+PCWA3I2vfiv/TCR2BMyBAMA5A1E2MIigE6DSsxNMMwsiEg
+        duuJl5gGYNOIjEEaQRjGB7mWJAOwYZCrKTIAhKlnACWYgTLAwAAABzX8nC+3qw0AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Nuevo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Guardar.Text" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="MainPanel.RowCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Herramientas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>799, 25</value>
+  </data>
+  <data name="Guardar.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="Compilar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 22</value>
+  </data>
+  <data name="&gt;&gt;Entrada.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Consola.Size" type="System.Drawing.Size, System.Drawing">
+    <value>393, 73</value>
+  </data>
+  <data name="CompilarX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 22</value>
+  </data>
+  <data name="RowNumbers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="Cargar.Text" xml:space="preserve">
+    <value>Cargar</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ConsolaUnused.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;NuevoX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EntradaFilaNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="GuardarComo.Text" xml:space="preserve">
+    <value>Guardar Como</value>
+  </data>
+  <data name="&gt;&gt;Entrada.Name" xml:space="preserve">
+    <value>Entrada</value>
+  </data>
+  <data name="Compilar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAJFJREFUOE9j+Pbt239KMNgAJycnsjCKAR/efyQJk2zA81sn/5/oNgXTID7JBpzo
+        Nvl/qFYKbAiIT6YLTAi7YNLZV/8XXHoN5+PCWA3I2vfiv/TCR2BMyBAMA5A1E2MIigE6DSsxNMMwsiEg
+        duuJl5gGYNOIjEEaQRjGB7mWJAOwYZCrKTIAhKlnACWYgTLAwAAABzX8nC+3qw0AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;Consola.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ConsolaUnused.Name" xml:space="preserve">
+    <value>ConsolaUnused</value>
+  </data>
+  <data name="Componente.HeaderText" xml:space="preserve">
+    <value>Componente</value>
+  </data>
+  <data name="&gt;&gt;Tabla.Name" xml:space="preserve">
+    <value>Tabla</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 24</value>
+  </data>
+  <data name="Entrada.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Guardar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 22</value>
+  </data>
+  <data name="Guardar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAJFJREFUOE9j+Pbt239KMNgAJycnsjCKAR/efyQJk2zA81sn/5/oNgXTID7JBpzo
+        Nvl/qFYKbAiIT6YLTAi7YNLZV/8XXHoN5+PCWA3I2vfiv/TCR2BMyBAMA5A1E2MIigE6DSsxNMMwsiEg
+        duuJl5gGYNOIjEEaQRjGB7mWJAOwYZCrKTIAhKlnACWYgTLAwAAABzX8nC+3qw0AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="GuardarComo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 22</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>MainPanel</value>
+  </data>
+  <data name="Tabla.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 28</value>
+  </data>
+  <data name="&gt;&gt;Tabla.Parent" xml:space="preserve">
+    <value>MainPanel</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 249</value>
+  </data>
+  <data name="&gt;&gt;EntradaFilaNum.Name" xml:space="preserve">
+    <value>EntradaFilaNum</value>
+  </data>
+  <data name="RowNumbers.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="MainPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>799, 340</value>
+  </data>
+  <data name="&gt;&gt;Linea.Name" xml:space="preserve">
+    <value>Linea</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Name" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>AnaLex</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Consola.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Parent" xml:space="preserve">
+    <value>MainPanel</value>
+  </data>
+  <data name="Tabla.Size" type="System.Drawing.Size, System.Drawing">
+    <value>394, 309</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="MainPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="panel1" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Herramientas" Row="1" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="Tabla" Row="2" RowSpan="2" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="statusStrip1" Row="4" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="tableLayoutPanel2" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0,Percent,77,77778,Percent,22,222221,AutoSize,0,Absolute,20,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;GuardarComoX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Herramientas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="splitContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 31</value>
+  </data>
+  <data name="&gt;&gt;GuardarComo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ConsolaUnused.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Name" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;Tabla.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GuardarComo.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="MainPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Entrada.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 28</value>
+  </data>
+  <data name="&gt;&gt;EntradaFilaNum.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ConsolaUnused.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 10</value>
+  </data>
+  <data name="&gt;&gt;Lexema.Name" xml:space="preserve">
+    <value>Lexema</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Compilar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="Compilar.Text" xml:space="preserve">
+    <value>Compilar</value>
+  </data>
+  <data name="GuardarComoX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 22</value>
+  </data>
+  <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;RowNumbers.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="Nuevo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAJFJREFUOE9j+Pbt239KMNgAJycnsjCKAR/efyQJk2zA81sn/5/oNgXTID7JBpzo
+        Nvl/qFYKbAiIT6YLTAi7YNLZV/8XXHoN5+PCWA3I2vfiv/TCR2BMyBAMA5A1E2MIigE6DSsxNMMwsiEg
+        duuJl5gGYNOIjEEaQRjGB7mWJAOwYZCrKTIAhKlnACWYgTLAwAAABzX8nC+3qw0AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 24</value>
+  </data>
+  <data name="&gt;&gt;CargarX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompilarX.Name" xml:space="preserve">
+    <value>CompilarX</value>
+  </data>
+  <data name="Entrada.Size" type="System.Drawing.Size, System.Drawing">
+    <value>393, 230</value>
+  </data>
+  <data name="&gt;&gt;MainPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EntradaFilaNum.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="tableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="Entrada" Row="0" RowSpan="2" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="EntradaFilaNum" Row="0" RowSpan="2" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,5,Percent,95" /&gt;&lt;Rows Styles="Percent,50,Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;EntradaFilaNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NuevoX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 22</value>
+  </data>
+  <data name="&gt;&gt;Herramientas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Nuevo.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;Componente.Name" xml:space="preserve">
+    <value>Componente</value>
+  </data>
+  <data name="&gt;&gt;ConsolaUnused.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="EntradaFilaNum.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Cargar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 22</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RowNumbers.Name" xml:space="preserve">
+    <value>RowNumbers</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;GuardarComo.Name" xml:space="preserve">
+    <value>GuardarComo</value>
+  </data>
+  <data name="Linea.HeaderText" xml:space="preserve">
+    <value>Linea</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;CompilarX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Consola.Name" xml:space="preserve">
+    <value>Consola</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Parent" xml:space="preserve">
+    <value>MainPanel</value>
+  </data>
+  <data name="&gt;&gt;Herramientas.Parent" xml:space="preserve">
+    <value>MainPanel</value>
+  </data>
+  <data name="&gt;&gt;MainPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Nuevo.Text" xml:space="preserve">
+    <value>Nuevo</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Parent" xml:space="preserve">
+    <value>MainPanel</value>
+  </data>
+  <data name="&gt;&gt;MainPanel.Name" xml:space="preserve">
+    <value>MainPanel</value>
+  </data>
+  <data name="&gt;&gt;Linea.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Componente.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Consola.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Name" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;Herramientas.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="MainPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Consola.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tabPage2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Lexema.HeaderText" xml:space="preserve">
+    <value>Lexema</value>
+  </data>
+  <data name="statusStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;GuardarComoX.Name" xml:space="preserve">
+    <value>GuardarComoX</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Name" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;Herramientas.Name" xml:space="preserve">
+    <value>Herramientas</value>
+  </data>
+  <data name="tableLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;MainPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Consola.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="Herramientas.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="GuardarX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 22</value>
+  </data>
+  <data name="&gt;&gt;NuevoX.Name" xml:space="preserve">
+    <value>NuevoX</value>
+  </data>
+  <data name="Consola.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 264</value>
+  </data>
+  <data name="&gt;&gt;ConsolaUnused.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Guardar.Name" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="MainPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ConsolaUnused.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Nuevo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 22</value>
+  </data>
+  <data name="Entrada.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Guardar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 319</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;GuardarX.Name" xml:space="preserve">
+    <value>GuardarX</value>
+  </data>
+  <data name="Cargar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAJFJREFUOE9j+Pbt239KMNgAJycnsjCKAR/efyQJk2zA81sn/5/oNgXTID7JBpzo
+        Nvl/qFYKbAiIT6YLTAi7YNLZV/8XXHoN5+PCWA3I2vfiv/TCR2BMyBAMA5A1E2MIigE6DSsxNMMwsiEg
+        duuJl5gGYNOIjEEaQRjGB7mWJAOwYZCrKTIAhKlnACWYgTLAwAAABzX8nC+3qw0AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Name" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>es-MX</value>
+  </metadata>
+  <metadata name="Componente.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>141, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Lexema.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Linea.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Herramientas.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>
